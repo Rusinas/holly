@@ -1,0 +1,36 @@
+{
+    "name": "holly",
+    "displayName": "Holly",
+    "description": "A color theme made with love <3",
+    "version": "0.0.1",
+    "main": "./src/extension.js",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "activationEvents": [
+        "*",
+        "onCommand:holly.beautify"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Holly",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Holly-color-theme.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "holly.beautify",
+                "title": "Holly Theme: Make It Better"
+            },
+            {
+                "command": "holly.uglify",
+                "title": "Holly Theme: Unmake Better"
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+.monaco-editor {
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+}
