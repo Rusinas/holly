@@ -4,6 +4,13 @@
     "description": "A color theme made with love <3",
     "version": "0.0.1",
     "main": "./src/extension.js",
+    "author": "Andrew Rusinas",
+    "publisher": "Rusinas",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rusinas/holly"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -11,9 +18,9 @@
         "Themes"
     ],
     "activationEvents": [
-        "*",
-        "onCommand:holly.beautify"
+        "onStartupFinished"
     ],
+    
     "contributes": {
         "themes": [
             {
@@ -25,11 +32,11 @@
         "commands": [
             {
                 "command": "holly.beautify",
-                "title": "Holly Theme: Make It Better"
+                "title": "Holly: Make it beatiful :3"
             },
             {
                 "command": "holly.uglify",
-                "title": "Holly Theme: Unmake Better"
+                "title": "Holly: Unmake it beatiful :("
             }
         ]
     }

@@ -1,7 +1,5 @@
-.monaco-editor {
-    background-color: transparent !important;
-    background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
-    background-size: auto 100vh;
-    background-position: top;
-    background-repeat: no-repeat;
+.monaco-workbench .part.editor >.content .editor-group-container >.title .tabs-container > .tab.active.tab-border-top > .tab-border-top-container {
+    height: 2px;
+    background: rgb(255,19,105);
+    background: linear-gradient(90deg, rgba(255,19,105,1) 0%, rgba(231,63,124,1) 44%, rgba(0,227,223,1) 100%);
 }
